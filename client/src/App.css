@@ -1,0 +1,61 @@
+.App {
+  /* background-color: #888; */
+  height: 100dvh;
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.books {
+  display: flex;
+  column-gap: 10px;
+}
+
+.book {
+  flex: 1;
+  display: flex;
+  row-gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.1px rgb(71, 71, 71) solid;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  background-color: antiquewhite;
+}
+
+.delete {
+  background-color: red;
+}
+
+.update {
+  background-color: green;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid wheat;
+}
+
+.updateBtn {
+  border: none;
+  padding: 10px;
+  background-color: rgb(244, 142, 74);
+  color: white;
+}
